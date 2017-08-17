@@ -1,0 +1,29 @@
+.header {
+font-family: 'Sedgwick Ave Display';
+font-size: 70px;
+background: black;
+color: white;
+padding: 50px;
+text-align: center;
+margin: 0px;
+}
+/*
+.new {
+  border-style: solid;
+  border-radius: 23px;
+  width: 400px;
+  background: black;
+  text-align: center;
+  margin: 0px;
+}*/
+
+a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: black;
+  border-radius: 23px;
+  padding: 13px;
+  width: 250px;
+  font-size: 23px;
+}

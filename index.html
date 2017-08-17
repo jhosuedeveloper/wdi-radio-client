@@ -8,14 +8,18 @@
     <script src="js/app.module.js"></script>
      <script src="js/services/song.js"></script>
     <script src="js/songs/index.controller.js"></script>
-    <!-- <script src="js/songs/show.controller.js"></script> -->
+    <script src="js/songs/show.controller.js"></script>
     <script src="js/songs/new.controller.js"></script>
-    <!-- <script src="js/songs/edit.controller.js"></script> -->
+    <script src="js/songs/edit.controller.js"></script>
     <script src="js/songs/song.routes.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Gloria+Hallelujah|Sedgwick+Ave+Display" rel="stylesheet">
   </head>
   <body>
-    <a data-ui-sref="songNew">New Song</a>
-    <h1><a data-ui-sref="songIndex">Song</a></h1>
+    <div class ="header">  LIST OF SONGS </div>
+    <br>
+    <div class="new"><a data-ui-sref="songNew">New Song</a> </div>
+    <h1><a data-ui-sref="songIndex">HOME</a></h1>
 
     <main data-ui-view>
 
